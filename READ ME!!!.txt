@@ -1,5 +1,4 @@
 Student name: Dimitar Atanasov Bonekov
-Student ID: 123368611
 
 Official time to finish: 27 hours and 43 minutes
 
@@ -20,4 +19,5 @@ None of the social media icons work for obvious reasons, used a fake adress for 
 There is a visual glitch of the X and the triple bar which i used to make it possible for phone users to also access my website, then I couldnt fix them unless I got rid of them, soooo a visual glitch it is
 
 in my opinion, this website is a decent 6/10 7/10 but it has a few points where I could smooth it out.
+
 
