@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title> Web Tech </title>
+	<link rel="stylesheet" href="styler.css"> <!--Link to css file -->
+	<script src="https://kit.fontawesome.com/c7dd463bbd.js" crossorigin="anonymous"></script> <!--Font awesome javascript link for icons to work -->
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href="homepage.html"><img src="images/logo.png"> <alt="logo"></a> 
+		<div class="nav-links" id="navLinks"> <!--navigation class for styling -->
+		<i class="fa fa-xmark" onclick="hideMenu()"></i>
+			<ul> <!--Different CTA's which lead to other pages -->
+				<li><a href="">HOME</a></li>
+				<li><a href="aboutpage.html">ABOUT</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i> <!--3 bars icon for phone usage-->
+	</nav>
+
+<div class="text-box">
+	<h1> Best Website Designer Consultancy On The Market </h1>
+	<p> I am are here to help you design the website that fits your needs. <br>All in a short time, a good effort and a cheap price </p>
+	<div><a href="aboutpage.html" class="hero-btn" style="transition: 1s;"> Visit us to know more </a>
+		<style>
+			.hero-btn:hover {
+				border: 1px solid #e9ab17;
+				background: #e9ab17;
+        }
+		</style> <!--style which allows for box to be filled with color-->
+	</div>
+</div>
+
+</section>
+
+<!---Footer--->
+
+<section class="footer"> <!--Small text below the page / at the end of the page where I can advertise the social medias and such-->
+	<h4> About Us </h4>
+	<p> You can follow us on our social medias for updates and potential discounts coming soon! <br> You can also apply to work with us through the links in the bios or through the "contact us" tab above! </p>
+	
+	<div class="icons">
+		<i class="fa fa-facebook" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;" ></i>
+		<i class="fa fa-twitter" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-instagram" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-linkedin" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> By Dimitar </p>
+
+</section>
+
+<!---Javascript for toggle bar--->
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}	
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script> <!--Javascript which allows for the bar when youre on mobile to appear and disappear-->
+
+</body>
+</html>

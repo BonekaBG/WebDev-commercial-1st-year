@@ -1,0 +1,23 @@
+Student name: Dimitar Atanasov Bonekov
+Student ID: 123368611
+
+Official time to finish: 27 hours and 43 minutes
+
+Its not the perfect website but there are a few things i like about it, like the feature where pressing the logo takes you back to the home page
+
+of course when youre opening the website to see its functionality, you would start at the file called "homepage.html"
+
+the java script although little in amount should work better than a massive code.
+
+I do not know if the PHP cookies are fully functional, but PHPSandbox said there were no errors so they should be functional (I hope)
+
+"Explore more" buttons lead to the next page all the way until "Services" since I dont really want people contacting me unless its urgent, so I want to offer them the services and then they buy them and not bother me anymore till I have to work with them
+
+I feel like I could have handled the portfolio a bit differently but I aint got any idea in what different way, so Im not entirely happy about it, but I dont know what to do about it (yet)
+
+None of the social media icons work for obvious reasons, used a fake adress for my business, fake email, fake phone number, my suggestion is dont try calling the phone since its probably some random person's
+
+There is a visual glitch of the X and the triple bar which i used to make it possible for phone users to also access my website, then I couldnt fix them unless I got rid of them, soooo a visual glitch it is
+
+in my opinion, this website is a decent 6/10 7/10 but it has a few points where I could smooth it out.
+

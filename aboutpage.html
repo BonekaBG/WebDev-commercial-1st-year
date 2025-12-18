@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" > <!--Copy paste from homepage from beginning -->
+    <title> Web Tech </title>
+	<link rel="stylesheet" href="styler.css">
+	<script src="https://kit.fontawesome.com/c7dd463bbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header"> 
+	<nav>
+		<a href="homepage.html"><img src="images/logo.png"> <alt="logo"></a>
+		<div class="nav-links" id="navLinks">
+		<i class="fa fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav> 
+<!--allllllllll the way to here-->
+<h1> About Us </h1>
+
+</section>
+
+
+<!---About us page--->
+
+<section class="about-us">
+
+	<div class="row">
+		<div class="about-col">
+			<h1>This is the best consultation company on the market for web development</h1>
+			<p>Founded in 2020, WebTech™ is a pioneering website design company renowned for its innovative solutions.
+			With over four years of expertise, WebTech™ has carved a niche in the digital landscape, offering cutting-edge design services tailored to meet clients' 
+			diverse needs. Committed to excellence, the company blends creativity with technical prowess to deliver visually stunning and user-friendly websites. 
+			Through strategic collaboration and a customer-centric approach, WebTech™ has earned a reputation for transforming ideas into captivating online experiences. 
+			Continuously evolving with industry trends, WebTech™ remains at the forefront of web design, 
+			shaping the digital presence of businesses worldwide since its inception.</p>
+			<a href="portfolio.html" class="hero-btn red-bnt" style="transition: 1s;"> Explore more </a>
+			<style>
+			.hero-btn:hover {
+				border: 1px solid #e9ab17;
+				background: #e9ab17;
+        }
+		</style> <!--Styling for explore bar-->
+		</div>
+		<div class="about-col">
+			<img src="images/about.jpg" alt="pretty man coding html">
+	</div>
+	</div>
+</section>
+
+<!---Footer--->
+
+<section class="footer"> <!--Small text below the page / at the end of the page where I can advertise the social medias and such-->
+	<h4> About Us </h4>
+	<p> You can follow us on our social medias for updates and potential discounts coming soon! <br> You can also apply to work with us through the links in the bios or through the "contact us" tab above! </p>
+	
+	<div class="icons"> <!-- The different social media icons from Font Awesome -->
+		<i class="fa fa-facebook" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;" ></i>
+		<i class="fa fa-twitter" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-instagram" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-linkedin" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> By Dimitar </p>
+
+</section>
+
+<!---Javascript for toggle bar--->
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}	
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script> <!--Javascript which allows for the bar when youre on mobile to appear and disappear-->
+
+</body>
+</html>

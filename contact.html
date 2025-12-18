@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" > <!--Do I have to comment that it's copy paste everytime?-->
+    <title> Web Tech </title>
+	<link rel="stylesheet" href="styler.css">
+	<script src="https://kit.fontawesome.com/c7dd463bbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="homepage.html"><img src="images/logo.png"> <alt="logo"></a>
+		<div class="nav-links" id="navLinks">
+		<i class="fa fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="aboutpage.html">ABOUT</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="">CONTACT US</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<h1> Contact Us </h1>
+
+</section>
+
+
+<!---Contact--->
+
+<section class="location">
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9847.016679972281!2d-8.470803255061684!3d51.90195018762245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4844900eb3b4a041%3A0x4033349ff2f7fb00!2sVictorian%20Quarter%2C%20Cork!5e0!3m2!1sen!2sie!4v1713450884510!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section> <!-- that thing above is a link directly from google maps which allows you to see a certain location that i chose-->
+
+<section class="contact">
+
+	<div class="row">
+		<div class="con-col">
+			<i class="fa fa-home" style="font-size: 28px; color: #e9ab17; margin: 10px; margin-right: 30px;"></i>
+			<span>
+				<h4> 51 Sidney Mews </h4>
+				<p>Victorian Quarter, Cork, Ireland</p>
+			</span> <!--the special icons of a house to match the address-->
+		</div>
+		<div class="con-col">
+			<i class="fa fa-phone" style="font-size: 28px; color: #e9ab17; margin: 10px; margin-right: 30px;"></i>
+			<span>
+				<h4> +353 856758374</h4>
+				<p>Monday - Friday, 9AM to 6PM</p>
+			</span> <!--Phone for available call times-->
+		</div>
+		<div class="con-col">
+			<i class="fa fa-envelope-o" style="font-size: 28px; color: #e9ab17; margin: 10px; margin-right: 30px;"></i>
+			<span>
+				<h4> webtech@mailme.mail </h4>
+				<p>Email us your queries</p>
+			</span>  <!--And envelope to match the email-->
+		</div>
+		<div class="con-col">
+			<img src="images/" alt="">
+	</div>
+	<div class="con-sol">
+		
+		<form action="pointhitpoint.php" method="post"> <!--The special form which allows for quick direct message straight to my email-->
+		<input type="text" name="name" placeholder="Enter your name" required>
+		<input type="email" name="email" placeholder="Enter your Email Adress" required>
+		<input type="text" name="subject" placeholder="Enter your subject" required>
+		<textarea rows="8" name="message" placeholder="Message" required></textarea>
+		<button type="submit" class="hero-btn red-btn"> Send Message </button>
+		<style>
+			.red-btn {
+				border: 1px solid #e9ab17;
+				background: transparent;
+				color: #e9ab17;
+			}
+
+			.red-btn:hover {
+				color: #e9ab17;
+			}
+		</style> <!--With styling of course *insert cool emoji with glasses*-->
+		</form>
+	</div>
+	</div>
+	
+</section>
+
+<!---Footer--->
+
+<section class="footer"> <!--*insert foot emoji*-->
+	<h4> About Us </h4>
+	<p> You can follow us on our social medias for updates and potential discounts coming soon! <br> You can also apply to work with us through the links in the bios or through the "contact us" tab above! </p>
+	
+	<div class="icons">
+		<i class="fa fa-facebook" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;" ></i>
+		<i class="fa fa-twitter" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-instagram" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-linkedin" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> By Dimitar </p>
+
+</section>
+
+<!---Javascript for toggle bar--->
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}	
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</head>
+</body>
+</html>

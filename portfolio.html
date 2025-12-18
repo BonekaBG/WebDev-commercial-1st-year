@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" > <!--Copy paste from homepage -->
+    <title> Web Tech </title>
+	<link rel="stylesheet" href="styler.css">
+	<script src="https://kit.fontawesome.com/c7dd463bbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="portfolio">
+	<nav>
+		<a href="homepage.html"><img src="images/logo.png"> <alt="logo"></a>
+		<div class="nav-links" id="navLinks">
+		<i class="fa fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="aboutpage.html">ABOUT</a></li>
+				<li><a href="">PORTFOLIO</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<h1> Portfolio </h1>
+
+</section>
+
+
+<!---Portfolio--->
+
+<section<section class="port">
+
+	<div class="row">
+		<div class="port-col">
+			<h1>Hello, I am Dimitar Bonekov. <br> Professional Web Designer and WD Consultant</h1>
+			<p>2020 - I took my first ever course of Web Development in school where I made the basic <br>version of a website, white page, text all the way to the left and a green box around my text. I still remember it like it was yesterday. </p>
+			<p>2021 - I began learning Computer Science as one of my Leaving Certificate subjects and studied a lot HTML. <br>I also started doing some self learning projects like trying to learn CSS and Javascript on my own</p>
+			<p>2022 - I was given my first major project where my teacher had asked me to make the best website I can about anything that I like.<br> I decided to create a information site based on my favorite band "Samurai"</p>
+			<p>2023 - I started doing small projects for free, went on a website full of web development challenges and just kept doing as many as I could.<br>I learned more skills, got better at designing and I intend to get even better</p>
+			<p>2024 - I joined UCC (University College Cork) one of the top universities in Ireland to study Business and Information Systems because, <br> I loved Web Development and Web Design so much that I wanted to learn how I can turn it into my full time job.</p>
+			<a href="services.html" class="hero-btn red-bnt" style="transition: 1s;"> Explore more </a>
+			<style>
+			.hero-btn:hover {
+				border: 1px solid #e9ab17;
+				background: #e9ab17;
+        }
+		</style> <!--Styling for explore bar just like before-->
+		</div>
+		<div class="port-col">
+			<img src="portfolio.jpg" alt="">
+	</div>
+	</div>
+</section>
+
+<!---Footer--->
+
+<section class="footer">
+	<h4> About Us </h4>
+	<p> You can follow us on our social medias for updates and potential discounts coming soon! <br> You can also apply to work with us through the links in the bios or through the "contact us" tab above! </p>
+	
+	<div class="icons">
+		<i class="fa fa-facebook" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;" ></i>
+		<i class="fa fa-twitter" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-instagram" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-linkedin" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> By Dimitar </p>
+
+</section>
+
+<!---Javascript for toggle bar--->
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}	
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+ChatGPT was used quite often for many code corrections or translations so that it would work properly. I can give 20-30% to ChatGPT for the functionality of the website for correcting my mistakes, both spelling and coding mistakes.
+
+Design was all my idea
+
+https://www.w3schools.com/html/default.asp   for HTML help and learning
+
+https://www.w3schools.com/php/default.asp    for php help plus learning, and your powerpoint on PHP too
+
+https://www.w3schools.com/css/default.asp    for CSS. I basically found one format and just copy pasted it and then changed it to match the content
+
+https://onlinephp.io/   for PHP testing
+
+https://fontawesome.com/v4/get-started/     Font Awesome for the icons 
+
+https://www.youtube.com/watch?v=ihTB-aZ-Msk
+https://www.youtube.com/watch?v=7nJN12cHyv8  these 2 youtube videos for teaching me how to use font awesome icons and styling
+
+although
+
+styling didnt work in css so i basically did the normal css style and transfered it into inline, so you might see in the CSS file some repearting code that you have noticed in the html files
+
+https://validator.w3.org/    HTML validator to verify my code is okay and running
+https://jigsaw.w3.org/css-validator/     this one is for CSS
+
+
+

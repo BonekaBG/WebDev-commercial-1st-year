@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" > <!-- Its just the same thing over and over again but with small changes to fit context-->
+    <title> Web Tech </title>
+	<link rel="stylesheet" href="styler.css">
+	<script src="https://kit.fontawesome.com/c7dd463bbd.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+<section class="services">
+	<nav>
+		<a href="homepage.html"><img src="images/logo.png"> <alt="logo"></a>
+		<div class="nav-links" id="navLinks">
+		<i class="fa fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="aboutpage.html">ABOUT</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
+				<li><a href="">SERVICES</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<h1> Services </h1>
+
+</section>
+
+
+<!---Services--->
+
+<section<section class="serv">
+
+	 <div class="serv-off">
+        <div class="service-box"> <!--Box with padding for services-->
+            <h2>Video Tutorial Package</h2>
+            <p>Unlock the power of video tutorials with our comprehensive HTML tutorial package. Learn HTML from scratch or advance your skills with our expert-led, step-by-step video lessons. Perfect for beginners and seasoned developers alike. Start your journey to mastering HTML today with our immersive tutorial package.</p>
+			<h1 class="hero-btn red-bnt" style="transition: 1s;"> €69,99 <h1><br> <!--Inline styling for said box-->
+			<small>One time payment</small>
+			<style>
+			.hero-btn:hover {
+				border: 1px solid #e9ab17;
+				background: #e9ab17;
+        }
+		</style> <!--Style for payment boxes to act like a clickable button-->
+			
+        </div>
+        <div class="service-box">
+            <h2>Make a website</h2>
+            <p>Looking to elevate your online presence? Let me craft a stunning website tailored to your needs. With my expertise in web design, I'll transform your vision into a captivating digital reality. From sleek portfolios to dynamic e-commerce sites, trust me to bring your brand to life online. Let's create something extraordinary together.</p>
+			<h1 class="hero-btn red-bnt" style="transition: 1s;"> Book Now <h1><br> <!--same here-->
+			<small>€7,99 per hour</small>
+			<style>
+			.hero-btn:hover {
+				border: 1px solid #e9ab17;
+				background: #e9ab17;
+        }
+		</style> <!--Rinse and repeat-->
+        </div>
+        <div class="service-box">
+            <h2>Website Design and Creation Consultation</h2>
+            <p>Looking to elevate your online presence? Let me, a seasoned website designer and consultant, help you craft a captivating digital experience for you. With expertise in design and development, I'll help you bring your vision to life. From sleek portfolios to dynamic e-commerce sites, trust me to help you create a website that stands out. Let's collaborate today!</p>
+			<h1 class="hero-btn red-bnt" style="transition: 1s;"> €109,99 <h1><!--and here-->
+			<small>20% deposit. Remaining payment after service</small>    <!--Small text because <p> was too big-->
+			<style>
+			.hero-btn:hover {
+				border: 1px solid #e9ab17;
+				background: #e9ab17;
+        }
+		</style> <!--Three times-->
+        </div>
+    </div>
+</section>
+
+<!---Footer--->
+
+<section class="footer">
+	<h4> About Us </h4>
+	<p> You can follow us on our social medias for updates and potential discounts coming soon! <br> You can also apply to work with us through the links in the bios or through the "contact us" tab above! </p>
+	
+	<div class="icons">
+		<i class="fa fa-facebook" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;" ></i>
+		<i class="fa fa-twitter" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-instagram" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+		<i class="fa fa-linkedin" style="color: #f44336; margin: 0 13px; cursor: pointer; padding: 18px 0;"></i>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> By Dimitar </p>
+
+</section>
+
+<!---Javascript for toggle bar--->
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}	
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+</html>
